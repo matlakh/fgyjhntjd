@@ -1,0 +1,112 @@
+.main {
+  background: #ffedc6;
+  color: #000;
+  padding-top: 100px;
+  height: 800px;
+}
+
+.main__title {
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 60px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+}
+
+.main__text {
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.main__content {
+  margin-right: 32px;
+}
+
+.main__button {
+  padding: 20px;
+  background: #ef496f;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.main__button:hover {
+  background: #fff;
+  color: #ef496f;
+}
+
+@media (max-width: 1024px) {
+  .main__button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main__button {
+    margin-bottom: 20px;
+  }
+}
+
+.main__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .main__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.main__img {
+  background-image: url(../img/invest/au-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 740px;
+  width: 100%;
+  height: 775px;
+}
+
+@media (max-width: 1024px) {
+  .main__img {
+    max-width: 100%;
+    height: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main__img {
+    height: 400px;
+  }
+}
+
+.invest {
+  background: #d1e9d8;
+}
+
+.investors__gallery--inner {
+  background-image: url(../img/invest/scroll4.png);
+}
+/*# sourceMappingURL=australian.css.map */

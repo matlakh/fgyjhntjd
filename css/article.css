@@ -1,0 +1,367 @@
+.main {
+  background: #ffedc6;
+  color: #000;
+  padding-top: 100px;
+  height: 820px;
+  padding-bottom: 30px;
+}
+
+.main__title {
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 60px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+}
+
+.main__journey {
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 6px 18px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 40px;
+  margin-bottom: 8px;
+  max-width: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 20px;
+  color: #222;
+}
+
+.main__day {
+  padding-right: 10px;
+  border-right: 2px solid #ef496f;
+  margin-right: 10px;
+}
+
+.main__text {
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.main__content {
+  margin-left: 32px;
+  max-width: 650px;
+  width: 100%;
+}
+
+@media (max-width: 1240px) {
+  .main__content {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+.main__button {
+  padding: 20px 30px;
+  background: #ef496f;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.main__button:hover {
+  background: #fff;
+  color: #ef496f;
+}
+
+@media (max-width: 1024px) {
+  .main__button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main__button {
+    margin-bottom: 20px;
+  }
+}
+
+.main__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1240px) {
+  .main__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.main__img {
+  background-image: url(../img/learn/why-invest.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 740px;
+  width: 100%;
+  height: 775px;
+}
+
+@media (max-width: 1240px) {
+  .main__img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main__img {
+    height: 400px;
+  }
+}
+
+.article {
+  padding: 60px 0;
+}
+
+.article p {
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: calc(18px + 4 * ((100vw - 420px) / 1020));
+  line-height: calc(28px + 4 * ((100vw - 420px) / 1020));
+  margin-bottom: 15px;
+}
+
+.article p.italic {
+  font-style: italic;
+}
+
+.article__inner {
+  display: block;
+  margin: 0 auto;
+  max-width: 650px;
+  width: 100%;
+}
+
+.article h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-size: calc(40px + 8 * ((100vw - 420px) / 1020));
+  line-height: calc(40px + 16 * ((100vw - 420px) / 1020));
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.article h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-size: calc(28px + 4 * ((100vw - 420px) / 1020));
+  line-height: calc(36px + 4 * ((100vw - 420px) / 1020));
+}
+
+.article span {
+  font-weight: 500;
+}
+
+.article a {
+  color: inherit;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ef496f;
+          text-decoration-color: #ef496f;
+}
+
+.article a:hover {
+  color: #ef496f;
+}
+
+.article hr {
+  background: #ded8cf;
+  height: 1px;
+  border-style: none;
+  margin: 2rem 0;
+}
+
+.join {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.join__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  background-color: #ffe2e8;
+  border-radius: 25px;
+  position: relative;
+  z-index: 10;
+  height: 300px;
+}
+
+@media (max-width: 1160px) {
+  .join__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .join__inner {
+    padding: 0 20px;
+  }
+}
+
+.join__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: #1e1e1e;
+  margin-bottom: 25px;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+
+@media (max-width: 1600px) {
+  .join__title {
+    margin-left: 32px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .join__title {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .join__title {
+    margin-left: 0px;
+    font-size: 32px;
+  }
+}
+
+.join__text {
+  margin-left: 120px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1600px) {
+  .join__text {
+    margin-left: 32px;
+    max-width: 395px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .join__text {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .join__text {
+    max-width: 320px;
+    margin-left: 0px;
+  }
+}
+
+.join__button {
+  background: #ef496f;
+  border-radius: 100px;
+  padding: 20px 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: #fff;
+  max-width: 250px;
+  margin-left: 120px;
+  -webkit-transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+@media (max-width: 1600px) {
+  .join__button {
+    margin-left: 32px;
+  }
+}
+
+.join__button:hover {
+  background: #fff;
+  color: #ef496f;
+}
+
+@media (max-width: 1440px) {
+  .join__button {
+    margin-bottom: 40px;
+    max-width: 240px;
+  }
+}
+
+@media (max-width: 450px) {
+  .join__button {
+    margin-left: 0px;
+  }
+}
+
+.join__img {
+  position: absolute;
+  right: 0;
+  z-index: 9;
+  max-width: 300px;
+  width: 100%;
+}
+
+@media (max-width: 1160px) {
+  .join__img {
+    position: static;
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=article.css.map */
